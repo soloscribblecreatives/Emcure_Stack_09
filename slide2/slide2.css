@@ -22,11 +22,11 @@
 
 .s2 {
 	position: absolute;
-  left: 290px;
-  top: 275px;
-  width: 600px;
-  height: 122px;
-	animation: none 0.5s;
+  left: 218px;
+  top: 418px;
+  width: 361px;
+  height: 93px;
+	animation: fadeInRight 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 10;
@@ -34,65 +34,42 @@
 
 .s3 {
 	position: absolute;
-  left: 320px;
-  top: 412px;
-  width: 561px;
-  height: 54px;
-	animation: none 0.5s;
-	animation-delay: 0.2s;
+  left: 619px;
+  top: 413px;
+  width: 343px;
+  height: 164px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 0.7s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
-  left: 314px;
-  top: 566px;
-  width: 462px;
-  height: 39px;
-	animation: flipInX 0.5s;
-	animation-delay: 0.2s;
+  left: 369px;
+  top: 635px;
+  width: 242px;
+  height: 34px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.2s;
 	animation-fill-mode: both;
+	transform-origin: left;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 789px;
-  top: 520px;
-  width: 128px;
-  height: 163px;
-	animation: stampIn 0.3s;
-	animation-delay: 0.7s;
+  left: 650px;
+  top: 635px;
+  width: 161px;
+  height: 34px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
+	transform-origin: left;
 	z-index: 5;
 }
 
-.s6 {
-	position: absolute;
-  left: 663px;
-  top: 611px;
-  width: 65px;
-  height: 50px;
-	animation: flashLongOff 1.5s infinite;
-	animation-delay: 1.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-@keyframes flashLongOff {
-  0% {
-    opacity: 0;
-  }
-  
-  10%, 40%, 60%, 90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
 
 @keyframes stampIn {
 	0%	{
@@ -116,19 +93,19 @@
 
 .hit_pop1 {
 	position: absolute;
-  left: 271px;
-  top: 518px;
-  width: 509px;
-  height: 129px;
+  left: 890px;
+  top: 654px;
+  width: 152px;
+  height: 121px;
 	z-index: 10;
 }
 
 .hit_pop2 {
 	position: absolute;
-  left: 1042px;
-  top: 666px;
-  width: 138px;
-  height: 109px;
+  left: 1043px;
+  top: 654px;
+  width: 137px;
+  height: 121px;
 	z-index: 10;
 }
 

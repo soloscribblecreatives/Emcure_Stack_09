@@ -22,52 +22,50 @@
 
 .s2 {
 	position: absolute;
-  left: 145px;
-  top: 523px;
-  width: 264px;
-  height: 77px;
-	animation: fadeInRight 0.5s;
+  left: 65px;
+  top: 49px;
+  width: 184px;
+  height: 192px;
+	animation: fadeInUp 0.3s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
-	z-index: 10;
+	z-index: 2;
 }
 
 .s3 {
 	position: absolute;
-  left: 432px;
-  top: 521px;
-  width: 258px;
-  height: 112px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 0.5s;
+  left: 98px;
+  top: 64px;
+  width: 120px;
+  height: 121px;
+	animation: stampIn 0.3s;
+	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
-  left: 713px;
-  top: 520px;
-  width: 322px;
-  height: 108px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 0.8s;
+  left: 325px;
+  top: 486px;
+  width: 261px;
+  height: 154px;
+	animation: zoomIn 1s;
+	animation-delay: 0.7s;
 	animation-fill-mode: both;
-	z-index: 5;
+	z-index: 10;
 }
 
-@keyframes flashLongOff {
-  0% {
-    opacity: 0;
-  }
-  
-  10%, 40%, 60%, 90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
+.s5 {
+	position: absolute;
+  left: 705px;
+  top: 504px;
+  width: 149px;
+  height: 130px;
+	animation: zoomIn 1s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	z-index: 5;
 }
 
 @keyframes stampIn {

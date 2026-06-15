@@ -22,76 +22,53 @@
 
 .s2 {
 	position: absolute;
-  left: 218px;
-  top: 385px;
-  width: 241px;
-  height: 19px;
-	animation: fadeInUp 0.5s;
+  left: 145px;
+  top: 523px;
+  width: 264px;
+  height: 77px;
+	animation: fadeInRight 1s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
-	z-index: 5;
+	z-index: 10;
 }
 
 .s3 {
 	position: absolute;
-  left: 683px;
-  top: 385px;
-  width: 214px;
-  height: 23px;
-	animation: fadeInUp 0.5s;
+  left: 432px;
+  top: 521px;
+  width: 258px;
+  height: 112px;
+	animation: fadeInRight 1s;
 	animation-delay: 0.5s;
 	animation-fill-mode: both;
-	z-index: 10;
+	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
-  left: 403px;
-  top: 448px;
-  width: 375px;
-  height: 29px;
-	animation: zoomIn 0.5s;
-	animation-delay: 1s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
-
-.s5 {
-	position: absolute;
-  left: 301px;
-  top: 503px;
-  width: 143px;
-  height: 146px;
-	animation: zoomIn 0.5s;
-	animation-delay: 1.5s;
+  left: 713px;
+  top: 520px;
+  width: 322px;
+  height: 108px;
+	animation: fadeInRight 1s;
+	animation-delay: 0.8s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
-.s6 {
-	position: absolute;
-  left: 723px;
-  top: 505px;
-  width: 142px;
-  height: 142px;
-	animation: zoomIn 0.5s;
-	animation-delay: 1.5s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
+@keyframes flashLongOff {
+  0% {
+    opacity: 0;
+  }
+  
+  10%, 40%, 60%, 90% {
+    opacity: 1;
+  }
 
-.s7 {
-	position: absolute;
-  left: 1017px;
-  top: 64px;
-  width: 135px;
-  height: 147px;
-	animation: stampIn 0.3s;
-	animation-delay: 2s;
-	animation-fill-mode: both;
-	z-index: 2;
+  100% {
+    opacity: 0;
+  }
 }
-
 
 @keyframes stampIn {
 	0%	{
